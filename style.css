@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7d2ae8;
+}
+
+.controlador
+{
+    user-select: none;
+}
+.controlador .temporizador
+{
+    height: 100px;
+    border-radius: 6px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 20px;
+    padding: 0 10px;
+}
+
+.controlador .temporizador span
+{
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+.temporizador span.separador
+{
+    width: 10px;
+
+}
+
+.controlador .buttons
+{
+    text-align: center;
+margin-top: 20px;
+}
+
+.buttons button
+{
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    color: #7d2ae8;
+    font-size: 20px;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px;
+
+}
+
+.buttons button.active
+{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.buttons button.stopActive
+{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.texto
+{
+    display: flex;
+    padding: 6px 16px;
+    margin: 0 5px;
+    align-items: center;
+    justify-content: center;
+}
+.texto h1{
+    color: white;
+    font-weight: 500;
+}
